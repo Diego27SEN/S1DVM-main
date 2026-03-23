@@ -421,9 +421,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   EnemyPrefab: {fileID: 1518395366974652292, guid: cfd1ab893fbb84549bee7903bdfc596f, type: 3}
-  range: 10
+  range: 20
   spawnInterval: 2
-  maxEnemies: 5
+  maxEnemies: 20
   EnableSpawner: 0
   counter: 0
 --- !u!135 &698616418
@@ -777,6 +777,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9045498315988008063, guid: cfd1ab893fbb84549bee7903bdfc596f, type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045498315988008063, guid: cfd1ab893fbb84549bee7903bdfc596f, type: 3}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 698616417}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
